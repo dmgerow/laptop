@@ -43,6 +43,22 @@ If not, copy the lines where the script failed into a
 [new GitHub Issue](https://github.com/thoughtbot/laptop/issues/new) for us.
 Or, attach the whole log file as an attachment.
 
+Getting this error? 
+
+```sh
+chsh: /usr/local/bin/zsh: non-standard shell
+```
+
+Run 
+```sh
+sudo vim /etc/shells
+```
+
+Add the following line to the end of your shells file:
+```sh
+/usr/local/bin/zsh
+```
+
 What it sets up
 ---------------
 
