@@ -150,9 +150,7 @@ Fork, modify, and make a pull request.
 
 License
 -------
-
-Laptop is © 2011-2016 thoughtbot, inc.
-It is free software,
+It is free software that has been forked from https://github.com/thoughtbot/laptop,
 and may be redistributed under the terms specified in the [LICENSE] file.
 
 [LICENSE]: LICENSE
