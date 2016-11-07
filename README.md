@@ -1,7 +1,8 @@
-Laptop
+SFDC Dev Config
 ======
 
-Laptop is a script to set up an macOS laptop for web development.
+SFDC Dev Config is a script to set up an macOS laptop for Salesforce.com development. 
+It has been forked from the Laptop script (https://github.com/thoughtbot/laptop)
 
 It can be run multiple times on the same machine safely.
 It installs, upgrades, or skips packages
@@ -22,26 +23,36 @@ versions are welcome.
 Install
 -------
 
-Download, review, then execute the script:
+Download, and execute the script:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
-less mac
-sh mac 2>&1 | tee ~/laptop.log
+curl --remote-name https://raw.githubusercontent.com/dmgerow/sfdc-dev-config/master/mac && sh mac 2>&1 | tee ~/sfdc-dev-setup.log
 ```
-
-Optionally, [install thoughtbot/dotfiles][dotfiles].
-
-[dotfiles]: https://github.com/thoughtbot/dotfiles#install
 
 Debugging
 ---------
 
-Your last Laptop run will be saved to `~/laptop.log`.
+Your last script run will be saved to `~/sfdc-dev-setup.log`.
 Read through it to see if you can debug the issue yourself.
 If not, copy the lines where the script failed into a
-[new GitHub Issue](https://github.com/thoughtbot/laptop/issues/new) for us.
+[new GitHub Issue](https://github.com/dmgerow/sfdc-dev-config/issues/new) for us.
 Or, attach the whole log file as an attachment.
+
+Getting this error? 
+
+```sh
+chsh: /usr/local/bin/zsh: non-standard shell
+```
+
+Run 
+```sh
+sudo vim /etc/shells
+```
+
+Add the following line to the end of your shells file:
+```sh
+/usr/local/bin/zsh
+```
 
 What it sets up
 ---------------
@@ -117,104 +128,28 @@ Databases:
 [Postgres]: http://www.postgresql.org/
 [Redis]: http://redis.io/
 
+Salesforce:
+
+* [Ant] for leveraging the force.com migration tool
+* [Sublime Text] for coding
+* [MavensMate] as our IDE to interface Sublime Text with Salesforce
+* [Source Tree] as a GUI for git
+
+[Ant]: http://ant.apache.org/
+[Sublime Text]: https://www.sublimetext.com/
+[Mavensmate]: http://mavensmate.com/
+[Source Tree]: https://www.sourcetreeapp.com/
+
 It should take less than 15 minutes to install (depends on your machine).
-
-Customize in `~/.laptop.local`
-------------------------------
-
-Your `~/.laptop.local` is run at the end of the Laptop script.
-Put your customizations there.
-For example:
-
-```sh
-#!/bin/sh
-
-brew bundle --file=- <<EOF
-brew "Caskroom/cask/dockertoolbox"
-brew "go"
-brew "ngrok"
-brew "watch"
-EOF
-
-default_docker_machine() {
-  docker-machine ls | grep -Fq "default"
-}
-
-if ! default_docker_machine; then
-  docker-machine create --driver virtualbox default
-fi
-
-default_docker_machine_running() {
-  default_docker_machine | grep -Fq "Running"
-}
-
-if ! default_docker_machine_running; then
-  docker-machine start default
-fi
-
-fancy_echo "Cleaning up old Homebrew formulae ..."
-brew cleanup
-brew cask cleanup
-
-if [ -r "$HOME/.rcrc" ]; then
-  fancy_echo "Updating dotfiles ..."
-  rcup
-fi
-```
-
-Write your customizations such that they can be run safely more than once.
-See the `mac` script for examples.
-
-Laptop functions such as `fancy_echo` and
-`gem_install_or_update`
-can be used in your `~/.laptop.local`.
-
-See the [wiki](https://github.com/thoughtbot/laptop/wiki)
-for more customization examples.
 
 Contributing
 ------------
 
-Edit the `mac` file.
-Document in the `README.md` file.
-Follow shell style guidelines by using [ShellCheck] and [Syntastic].
-
-```sh
-brew install shellcheck
-```
-
-[ShellCheck]: http://www.shellcheck.net/about.html
-[Syntastic]: https://github.com/scrooloose/syntastic
-
-Thank you, [contributors]!
-
-[contributors]: https://github.com/thoughtbot/laptop/graphs/contributors
-
-By participating in this project,
-you agree to abide by the thoughtbot [code of conduct].
-
-[code of conduct]: https://thoughtbot.com/open-source-code-of-conduct
+Fork, modify, and make a pull request.
 
 License
 -------
-
-Laptop is © 2011-2016 thoughtbot, inc.
-It is free software,
+It is free software that has been forked from https://github.com/thoughtbot/laptop,
 and may be redistributed under the terms specified in the [LICENSE] file.
 
 [LICENSE]: LICENSE
-
-About thoughtbot
-----------------
-
-![thoughtbot](https://thoughtbot.com/logo.png)
-
-Laptop is maintained and funded by thoughtbot, inc.
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
-
-We are passionate about open source software.
-See [our other projects][community].
-We are [available for hire][hire].
-
-[community]: https://thoughtbot.com/community?utm_source=github
-[hire]: https://thoughtbot.com?utm_source=github
