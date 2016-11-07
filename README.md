@@ -101,7 +101,7 @@ Image tools:
 
 Testing tools:
 
-* [Qt] for headless JavaScript testing via Capybara Webkit
+* ~[Qt] for headless JavaScript testing via Capybara Webkit~
 
 [Qt]: http://qt-project.org/
 
