@@ -26,8 +26,7 @@ Install
 Download, and execute the script:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/dmgerow/sfdc-dev-config/master/mac &&
-sh mac 2>&1 | tee ~/sfdc-dev-setup.log
+curl --remote-name https://raw.githubusercontent.com/dmgerow/sfdc-dev-config/master/mac && sh mac 2>&1 | tee ~/sfdc-dev-setup.log
 ```
 
 Debugging
