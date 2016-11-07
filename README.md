@@ -105,10 +105,9 @@ Image tools:
 
 Testing tools:
 
-* [Qt 5] for headless JavaScript testing via [Capybara Webkit]
+* [Qt] for headless JavaScript testing via Capybara Webkit
 
-[Qt 5]: http://qt-project.org/
-[Capybara Webkit]: https://github.com/thoughtbot/capybara-webkit
+[Qt]: http://qt-project.org/
 
 Programming languages and configuration:
 
