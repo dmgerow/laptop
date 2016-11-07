@@ -137,7 +137,7 @@ Salesforce:
 * [Source Tree] as a GUI for git
 
 [Ant]: http://ant.apache.org/
-[Sublimt Text]: https://www.sublimetext.com/
+[Sublime Text]: https://www.sublimetext.com/
 [Mavensmate]: http://mavensmate.com/
 [Source Tree]: https://www.sourcetreeapp.com/
 
