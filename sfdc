@@ -15,3 +15,8 @@ brew cask install Caskroom/cask/sourcetree
 fancy_echo "Cleaning up old Homebrew formulae ..."
 brew cleanup
 brew cask cleanup
+
+configure_sublime() {
+	cd ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
+	curl -O https://packagecontrol.io/Package%20Control.sublime-package
+}
