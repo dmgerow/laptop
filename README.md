@@ -132,6 +132,7 @@ Databases:
 Salesforce:
 
 * [Ant] for leveraging the force.com migration tool
+* [Java JDK]: is required for ant to run
 * [Force.com Migration Tool] is an ant-based tool to access Salesforce's metadata API
 * [Force.com CLI] is a CLI developed by Salesforce for accessing Salesforce
 * [Salesforce Data Loader] is Salesforce's official data loading application
@@ -140,6 +141,7 @@ Salesforce:
 * [Source Tree] as a GUI for git
 
 [Ant]: http://ant.apache.org/
+[Java JDK]: http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html
 [Force.com Migration Tool]: https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/meta_development.htm
 [Force.com CLI]: https://github.com/heroku/force
 [Salesforce Data Loader]: https://developer.salesforce.com/page/Data_Loader
