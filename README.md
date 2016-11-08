@@ -132,7 +132,7 @@ Databases:
 Salesforce:
 
 * [Ant] for leveraging the force.com migration tool
-* [Java JDK]: is required for ant to run
+* [Java JDK] is required for ant to run
 * [Force.com Migration Tool] is an ant-based tool to access Salesforce's metadata API
 * [Force.com CLI] is a CLI developed by Salesforce for accessing Salesforce
 * [Salesforce Data Loader] is Salesforce's official data loading application
