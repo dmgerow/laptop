@@ -103,7 +103,7 @@ Testing tools:
 
 ~~* [Qt] for headless JavaScript testing via Capybara Webkit~~
 
-~~[Qt]: http://qt-project.org/ ~~
+[Qt]: http://qt-project.org/
 
 Programming languages and configuration:
 
