@@ -105,29 +105,29 @@ GitHub tools:
 
 <!-- [Qt]: http://qt-project.org/ -->
 
-<!-- Programming languages and configuration: -->
+Programming languages and configuration:
 
-<!-- * [Bundler] for managing Ruby libraries -->
-<!-- * [Node.js] and [NPM], for running apps and installing JavaScript packages -->
-<!-- * [Rbenv] for managing versions of Ruby -->
-<!-- * [Ruby Build] for installing Rubies -->
-<!-- * [Ruby] stable for writing general-purpose code -->
+* [Bundler] for managing Ruby libraries
+* [Node.js] and [NPM], for running apps and installing JavaScript packages 
+* [Rbenv] for managing versions of Ruby
+* [Ruby Build] for installing Rubies 
+* [Ruby] stable for writing general-purpose code 
 
-<!-- [Bundler]: http://bundler.io/ -->
-<!-- [ImageMagick]: http://www.imagemagick.org/ -->
-<!-- [Node.js]: http://nodejs.org/ -->
-<!-- [NPM]: https://www.npmjs.org/ -->
-<!-- [Rbenv]: https://github.com/sstephenson/rbenv -->
-<!-- [Ruby Build]: https://github.com/sstephenson/ruby-build -->
-<!-- [Ruby]: https://www.ruby-lang.org/en/ -->
+[Bundler]: http://bundler.io/
+[ImageMagick]: http://www.imagemagick.org/
+[Node.js]: http://nodejs.org/
+[NPM]: https://www.npmjs.org/
+[Rbenv]: https://github.com/sstephenson/rbenv
+[Ruby Build]: https://github.com/sstephenson/ruby-build
+[Ruby]: https://www.ruby-lang.org/en/
 
-<!-- Databases: -->
+Databases:
 
-<!-- * [Postgres] for storing relational data -->
-<!-- * [Redis] for storing key-value data -->
+* [Postgres] for storing relational data
+* [Redis] for storing key-value data
 
-<!-- [Postgres]: http://www.postgresql.org/ -->
-<!-- [Redis]: http://redis.io/ -->
+[Postgres]: http://www.postgresql.org/
+[Redis]: http://redis.io/
 
 Salesforce:
 
