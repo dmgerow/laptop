@@ -7,7 +7,6 @@ brew install force
 
 brew install ant
 brew cask install Caskroom/cask/java
-brew cask install Caskroom/cask/iterm2
 brew cask install Caskroom/cask/sublime-text
 brew cask install Caskroom/cask/mavensmate
 brew cask install Caskroom/cask/sourcetree
