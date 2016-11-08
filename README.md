@@ -66,20 +66,20 @@ macOS tools:
 
 Unix tools:
 
-* [Exuberant Ctags] for indexing files for vim tab completion
+<!-- * [Exuberant Ctags] for indexing files for vim tab completion -->
 * [Git] for version control
 * [OpenSSL] for Transport Layer Security (TLS)
-* [RCM] for managing company and personal dotfiles
-* [The Silver Searcher] for finding things in files
-* [Tmux] for saving project state and switching between projects
+<!-- * [RCM] for managing company and personal dotfiles -->
+<!-- * [The Silver Searcher] for finding things in files -->
+<!-- * [Tmux] for saving project state and switching between projects -->
 * [Zsh] as your shell
 
-[Exuberant Ctags]: http://ctags.sourceforge.net/
+<!-- [Exuberant Ctags]: http://ctags.sourceforge.net/ -->
 [Git]: https://git-scm.com/
 [OpenSSL]: https://www.openssl.org/
-[RCM]: https://github.com/thoughtbot/rcm
-[The Silver Searcher]: https://github.com/ggreer/the_silver_searcher
-[Tmux]: http://tmux.github.io/
+<!-- [RCM]: https://github.com/thoughtbot/rcm -->
+<!-- [The Silver Searcher]: https://github.com/ggreer/the_silver_searcher -->
+<!-- [Tmux]: http://tmux.github.io/ -->
 [Zsh]: http://www.zsh.org/
 
 Heroku tools:
@@ -95,23 +95,23 @@ GitHub tools:
 
 [Hub]: http://hub.github.com/
 
-Image tools:
+<!-- Image tools: -->
 
-* [ImageMagick] for cropping and resizing images
+<!-- * [ImageMagick] for cropping and resizing images -->
 
-Testing tools:
+<!-- Testing tools: -->
 
-* ~~[Qt] for headless JavaScript testing via Capybara Webkit~~
+<!-- * ~~[Qt] for headless JavaScript testing via Capybara Webkit~~ -->
 
-[Qt]: http://qt-project.org/
+<!-- [Qt]: http://qt-project.org/ -->
 
 Programming languages and configuration:
 
 * [Bundler] for managing Ruby libraries
-* [Node.js] and [NPM], for running apps and installing JavaScript packages
+* [Node.js] and [NPM], for running apps and installing JavaScript packages 
 * [Rbenv] for managing versions of Ruby
-* [Ruby Build] for installing Rubies
-* [Ruby] stable for writing general-purpose code
+* [Ruby Build] for installing Rubies 
+* [Ruby] stable for writing general-purpose code 
 
 [Bundler]: http://bundler.io/
 [ImageMagick]: http://www.imagemagick.org/
