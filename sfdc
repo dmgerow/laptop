@@ -1,5 +1,12 @@
 #!/bin/sh
 
+configure_sublime() {
+    fancy_echo "Configuring Sublime"
+    cp Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
+    cd ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
+    curl -O https://packagecontrol.io/Package%20Control.sublime-package
+}
+
 brew tap pasonatquila/salesforce 
 brew cask install dataloader
 brew install ant-salesforce
@@ -15,7 +22,11 @@ fancy_echo "Cleaning up old Homebrew formulae ..."
 brew cleanup
 brew cask cleanup
 
-configure_sublime() {
-	cd ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
-	curl -O https://packagecontrol.io/Package%20Control.sublime-package
-}
+while true; do
+    read -p "Do you want me to configure sublime for you?" yn
+    case $yn in
+        [Yy]* ) configure_sublime; break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
