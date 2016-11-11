@@ -18,6 +18,7 @@ brew cask install Caskroom/cask/java
 brew cask install Caskroom/cask/sublime-text
 brew cask install Caskroom/cask/mavensmate
 brew cask install Caskroom/cask/sourcetree
+brew cask install docker-toolbox
 
 fancy_echo "Cleaning up old Homebrew formulae ..."
 brew cleanup
