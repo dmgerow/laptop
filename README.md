@@ -136,18 +136,44 @@ Salesforce:
 * [Force.com Migration Tool] is an ant-based tool to access Salesforce's metadata API
 * [Force.com CLI] is a CLI developed by Salesforce for accessing Salesforce
 * [Salesforce Data Loader] is Salesforce's official data loading application
-* [Sublime Text] for coding
-* [MavensMate] as our IDE to interface Sublime Text with Salesforce
-* [Source Tree] as a GUI for git
 
 [Ant]: http://ant.apache.org/
 [Java JDK]: http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html
 [Force.com Migration Tool]: https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/meta_development.htm
 [Force.com CLI]: https://github.com/heroku/force
 [Salesforce Data Loader]: https://developer.salesforce.com/page/Data_Loader
+
+IDE:
+* [Sublime Text] for coding
+* [MavensMate] as our IDE to interface Sublime Text with Salesforce
+
 [Sublime Text]: https://www.sublimetext.com/
 [Mavensmate]: http://mavensmate.com/
+
+If you choose to allow this script to configure your Sublime Application, you will receieve the
+following plugins:
+* [Package Control] For managing Sublime packages
+* [Apex Snippets] for Apex Code snippets
+* [DocBlockr] for code comments
+* [GitGutter] for git diff capabilities in Sublime
+* [Material Theme] as a default Sublime theme
+* [MavensMate] to interact with the Mavensmate app
+* [SublimeGit] git integration with Sublime
+
+[Package Control]: https://packagecontrol.io/
+[Apex Snippets]: https://packagecontrol.io/packages/Apex%20Snippets
+[DocBlockr]: https://packagecontrol.io/packages/DocBlockr
+[GitGutter]: https://packagecontrol.io/packages/GitGutter
+[Material Theme]: https://packagecontrol.io/packages/Material%20Theme
+[MavensMate]: https://packagecontrol.io/packages/MavensMate
+[SublimeGit]: https://packagecontrol.io/packages/SublimeGit
+
+Utilities:
+* [Source Tree] as a GUI for git
+* [Google Chrome] as a web browser
+
 [Source Tree]: https://www.sourcetreeapp.com/
+[Google Chrome]: https://www.google.com/chrome/
 
 It should take less than 15 minutes to install (depends on your machine).
 
