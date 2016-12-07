@@ -55,6 +55,12 @@ Add the following line to the end of your shells file:
 /usr/local/bin/zsh
 ```
 
+Or this error when trying to use rbenv?
+```sh
+ /usr/local/Cellar/rbenv/1.0.0/libexec/rbenv: No such file or directory
+```
+Find the solution here: https://coderwall.com/p/0o64yq/rbenv-issues-when-switching-to-zsh
+
 What it sets up
 ---------------
 
